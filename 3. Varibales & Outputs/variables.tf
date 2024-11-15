@@ -4,3 +4,10 @@ variable "instance_name" {
     default = "TerraformAppServerInstance"
 }
 
+variable "ami" {
+    description = "Amazon machine image to use for EC2 Instances"
+    type = string
+    default = "ami-08d70e59c07c61a3a" 
+}
+
+
