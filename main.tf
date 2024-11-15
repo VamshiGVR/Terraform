@@ -100,7 +100,7 @@ resource "aws_instance" "app_server" {
     Name = "TerraformAppServerInstance"
   }
 }*/
-
+/*
 #THIS IS USED TO CREATE AWS INSTANCE USIGN VARIABLES
 resource "aws_instance" "app_server" {
   ami           = "ami-830c94e3"
@@ -110,3 +110,4 @@ resource "aws_instance" "app_server" {
     Name = var.instance_name
   }
 }
+*/
