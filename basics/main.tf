@@ -1,10 +1,5 @@
 terraform {
-backend "remote" {
-  organization = "Terraform-Login"
-  workspaces {
-    name = "Terraform-Login"
-  }
-}
+#provides
  required_providers {
   aws = {
    source  = "hashicorp/aws"
@@ -14,13 +9,15 @@ backend "remote" {
  required_version = ">= 1.2.0"
 }
 
+#default region for that provider
 provider "aws" {
   region  = "us-west-2"
 }
 
 resource "aws_instance" "app_server" {
-  ami           = "ami-08d70e59c07c61a3a"
-  instance_type = "t2.micro"
+  ami           = "ami-08d70e59c07c61a3a" 
+  instance_type = "t2.micro" #instance type
+
 }
 
 
