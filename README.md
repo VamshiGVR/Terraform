@@ -3,8 +3,6 @@ This Repo is used to learn terraform with AWS.
 
 
 
-
-
 DOCUMENTATION: https://developer.hashicorp.com/terraform/tutorials
 
 DOWNLOAD TERRAFORM CLI
@@ -49,3 +47,12 @@ open command prompt
 =>aws configure
 => enter aws access key adn secret acces key
 #create keys in aws console=> IAM=> Security credentials =>Create access key
+
+
+
+#TERRAFORM COMMANDS
+terraform init
+terraform apply
+terraform destroy
+
+For more do terraform -help
