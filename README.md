@@ -29,9 +29,9 @@ METHOD 1
 => install : https://awscli.amazonaws.com/AWSCLIV2.msi
 
 METHOD 2
-=>msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msi
+=> msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msi
 else 
-=>msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msi /qn
+=> msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msi /qn
 
 
 # To Check installation
@@ -44,16 +44,17 @@ else
 
 # AWS configuration
 open command prompt
-=>aws configure
-=> enter aws access key adn secret acces key
-#create keys in aws console=> IAM=> Security credentials =>Create access key
+1) aws configure
+2) enter aws access key adn secret acces key
+   
+# create keys in aws console=> IAM=> Security credentials =>Create access key
 
 
 
 #TERRAFORM COMMANDS
-terraform init
-terraform plan
-terraform apply
-terraform destroy
+=>terraform init
+=>terraform plan
+=>terraform apply
+=>terraform destroy
 
 For more do terraform -help
