@@ -3,8 +3,6 @@ This Repo is used to learn terraform with AWS.
 
 
 
-
-
 DOCUMENTATION: https://developer.hashicorp.com/terraform/tutorials
 
 DOWNLOAD TERRAFORM CLI
