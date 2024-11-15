@@ -13,7 +13,7 @@ DOWNLOAD TERRAFORM CLI
 => Copy the path
 => Add the path in environment variables =>Path
 
-#To Check installation
+# To Check installation
 
 METHOD 1
 => open powershell window
@@ -34,7 +34,7 @@ else
 =>msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msi /qn
 
 
-#To Check installation
+# To Check installation
 => open Command prompt/Windows powershell
 => change directory to installed file
 => do 'aws --version'
@@ -42,7 +42,7 @@ else
 
 
 
-AWS configuration
+# AWS configuration
 open command prompt
 =>aws configure
 => enter aws access key adn secret acces key
@@ -52,6 +52,7 @@ open command prompt
 
 #TERRAFORM COMMANDS
 terraform init
+terraform plan
 terraform apply
 terraform destroy
 
