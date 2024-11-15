@@ -49,3 +49,12 @@ open command prompt
 =>aws configure
 => enter aws access key adn secret acces key
 #create keys in aws console=> IAM=> Security credentials =>Create access key
+
+
+
+#TERRAFORM COMMANDS
+terraform init
+terraform apply
+terraform destroy
+
+For more do terraform -help
