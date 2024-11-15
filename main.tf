@@ -1,18 +1,17 @@
 terraform {
-backend "remote"{
-  organization="Terraform-Login"
-  workspaces{
-    name="Terraform-Login"
+backend "remote" {
+  organization = "Terraform-Login"
+  workspaces {
+    name = "Terraform-Login"
   }
 }
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "~> 4.16"
-    }
+ required_providers {
+  aws = {
+   source  = "hashicorp/aws"
+   version = "~> 4.16"
   }
-
-  required_version = ">= 1.2.0"
+ }
+ required_version = ">= 1.2.0"
 }
 
 provider "aws" {
