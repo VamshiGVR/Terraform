@@ -58,3 +58,13 @@ open command prompt
 =>terraform destroy
 
 For more do terraform -help
+
+
+
+
+
+
+
+# References
+1) Doc : https://developer.hashicorp.com/terraform/tutorials/aws
+2) Youtube: https://www.youtube.com/watch?v=7xngnjfIlK4
