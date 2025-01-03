@@ -1,9 +1,10 @@
-# Terraform 
+# Terraform
+
+# HASHI CORP
+
 This Repo is used to learn terraform with AWS.
 
-
-
-DOCUMENTATION: https://developer.hashicorp.com/terraform/tutorials
+DOCUMENTATION: <https://developer.hashicorp.com/terraform/tutorials>
 
 DOWNLOAD TERRAFORM CLI
 
@@ -23,35 +24,32 @@ METHOD 2
 => open command prompt
 => do 'terraform --version'
 
-
 NEED TO HAVE AWS CLI
 METHOD 1
-=> install : https://awscli.amazonaws.com/AWSCLIV2.msi
+=> install : <https://awscli.amazonaws.com/AWSCLIV2.msi>
 
 METHOD 2
-=> msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msi
-else 
-=> msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msi /qn
-
+=> msiexec.exe /i <https://awscli.amazonaws.com/AWSCLIV2.msi>
+else
+=> msiexec.exe /i <https://awscli.amazonaws.com/AWSCLIV2.msi> /qn
 
 # To Check installation
+
 => open Command prompt/Windows powershell
 => change directory to installed file
 => do 'aws --version'
 
-
-
-
 # AWS configuration
+
 open command prompt
+
 1) aws configure
 2) enter aws access key adn secret acces key
-   
+
 # create keys in aws console=> IAM=> Security credentials =>Create access key
 
+# TERRAFORM COMMANDS
 
-
-#TERRAFORM COMMANDS
 =>terraform init
 =>terraform plan
 =>terraform apply
@@ -59,12 +57,17 @@ open command prompt
 
 For more do terraform -help
 
-
-
-
-
-
-
 # References
-1) Doc : https://developer.hashicorp.com/terraform/tutorials/aws
-2) Youtube: https://www.youtube.com/watch?v=7xngnjfIlK4
+
+1) Doc : <https://developer.hashicorp.com/terraform/tutorials/aws>
+2) Youtube: <https://www.youtube.com/watch?v=7xngnjfIlK4>
+
+
+
+
+
+
+
+
+
+Blocks & Arguments.
