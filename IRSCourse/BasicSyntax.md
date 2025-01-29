@@ -1,0 +1,2 @@
+# HCL - HASHICORP CONFIRGURATION LANGUAGE
+# Can use JSON As alternative

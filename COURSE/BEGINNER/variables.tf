@@ -1,5 +1,7 @@
+# Variable block // SPECIFIcATION BLOCK
+
 variable "aws_region" {
-    description = "The AWS region value"
+    description = "The AWS Region Value"
     type = "string"
     default = "us-west-1"  
 }
