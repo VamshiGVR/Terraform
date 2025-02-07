@@ -14,3 +14,10 @@ resource "local_sensitive_file" "local_sensitive_name" {
   filename = "C:/Users/ATGWORKS/OneDrive/Desktop/Terraform/COURSE/01_basics/localSenstiveFile.txt"
   content  = "This is a senstive information."
 }
+
+# Used Meta_Argument word as COUNT: it replicates the resources.
+resource "local_file" "local_name2" {
+  filename="${path.module}/localFile${count.index}.txt"
+  content = "replicas"
+  count =4
+}
