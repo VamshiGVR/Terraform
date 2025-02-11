@@ -21,3 +21,20 @@ resource "local_file" "local_name2" {
   content = "replicas"
   count =4
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
