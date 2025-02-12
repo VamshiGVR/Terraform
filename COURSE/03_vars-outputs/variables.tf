@@ -27,5 +27,5 @@ variable "count-num" {
 variable "count-num2" {
   description = "This is used to count the values"
   type = number
-  default = 2
+  default = 5
 }
