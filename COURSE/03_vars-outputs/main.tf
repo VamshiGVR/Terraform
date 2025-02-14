@@ -55,5 +55,11 @@ resource "local_file" "server" {
   environment = ${local.upperCase}
   port = 3003
   EOT
-  count = var.count-num2
+  #count = var.count-num2
+}
+
+# outputs
+output "FN1" {
+    value = local_file.server.filename   
+    sensitive = true
 }
