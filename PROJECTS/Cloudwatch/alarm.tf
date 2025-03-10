@@ -1,10 +1,10 @@
 resource "aws_cloudwatch_metric_alarm" "AL" {
-    alarm_name = "Alarm"
-    comparison_operator = "GreaterThanOrEqualToThreshold"
-    evaluation_periods = 2
-    metric_name = "CPU"
+    alarm_name = "Alarm" #NAME of Alarms
+    comparison_operator = "GreaterThanOrEqualToThreshold" #Condition
+    evaluation_periods = 2 #no of times occurs in period
+    period = 60 #Calculated in Seconds.
+    metric_name = "CPU" #Name
     namespace = "AWS/EC2"
-    period = 120
     statistic = "Average"
     threshold = 10
     alarm_description = ""
